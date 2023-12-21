@@ -2610,7 +2610,7 @@
   text-align: center;
   height: 50px;
   padding-top: 71px;
-  margin-left: 225px;
+  margin-left: 101px;
   min-width: 176px;
 }
 .sticky{display: flex !important}
@@ -2803,7 +2803,7 @@
 .header .div-main-menu-right {
   display: inline-flex;
   align-items: center;
-  gap: 224px;
+  gap: 100px;
   position: relative;
   flex: 0 0 auto;
 }
