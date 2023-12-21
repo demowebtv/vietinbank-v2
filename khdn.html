@@ -3,8 +3,10 @@
 <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="globals.css"/>
+    <link rel="stylesheet" href="font.css"/>
     <link rel="stylesheet" href="khdn/styleguide.css"/>
     <link rel="stylesheet" href="khdn/style.css"/>
+
 </head>
 <body>
 <div class="main">
@@ -20,8 +22,9 @@
             </div>
             <div class="h-tr">
                 <div class="tm-kim">
-                    <img class="img-2" src="img/search-normal.svg"/>
-                    <div class="text-wrapper-3">Tìm kiếm</div>
+                    <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"  placeholder="Nhập từ khóa để tìm kiếm...">
+                    <a onclick="showSearchBox()" class="tm-kim search-left"><img class="img-2" src="img/search-normal.svg"/>
+                    <div class="text-wrapper-3">Tìm kiếm</div></a>
                 </div>
                 <div class="div-main-menu-social">
                     <div class="div-main-menu-social-2">
@@ -77,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item-margin">
+                    <div class="item-margin menu-active">
                         <div class="link-wrapper">
                             <div class="div">
                                 <div class="text-wrapper">Doanh nghiệp</div>
@@ -141,7 +144,6 @@
             </div>
         </div>
     </div>
-
     <div class="header">
     <div class="header-inner">
         <div class="container flex">
@@ -156,7 +158,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item-margin">
+                <div class="item-margin menu-active">
                     <div class="link-wrapper">
                         <div class="link">
                             <div class="text-wrapper">Doanh nghiệp</div>
@@ -213,7 +215,7 @@
         </div>
     </div>
     </div>
-
+</div>
     <div class="image" style="margin-top: -25px;"><img class="BG-img" src="img/khdn/main_bg.png"/></div>
     <div class="content">
         <div class="dch-v">
@@ -431,99 +433,122 @@
                 </div>
             </div>
         </div>
-        <div class="frame">
-            <div class="frame-2">
-                <div class="text-wrapper-3">Tỉ giá</div>
-                <div class="frame-3">
-                    <div class="frame-4">
-                        <div class="title">Ngoại tệ</div>
-                        <div class="title-2">Mua vào</div>
-                        <div class="title-3">Bán ra</div>
+    </div>
+    <div class="features">
+        <div class="section-heading">
+            <div class="section-title">Giải pháp tài chính</div>
+            <p class="description">
+                Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual
+                presentation.
+            </p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2-5.svg" />
+                        <div class="rectangle"></div>
+                        <p class="headline">Tiền gửi &amp; Tài khoản</p>
                     </div>
-                    <div class="frame-5">
-                        <div class="title-4">USD</div>
-                        <div class="title-5">24085</div>
-                        <div class="title-6">24095</div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Ac tellus nunc tortor purus. Nunc sagittis ultrices non pharetra
+                            congue.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
-                    <div class="frame-6">
-                        <div class="title-4">EUR</div>
-                        <div class="title-5">25493</div>
-                        <div class="title-6">25698</div>
+                </div>
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2-4.svg" />
+                        <div class="rectangle"></div>
+                        <div class="headline">Cho vay</div>
                     </div>
-                    <div class="frame-5">
-                        <div class="title-4">GBP</div>
-                        <div class="title-5">29545</div>
-                        <div class="title-6">29756</div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Ac leo natoque semper at ac felis interdum. Diam dictumst tempus
+                            aliquam cursus at pharetra.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
-                    <div class="frame-6">
-                        <div class="title-4">CNY</div>
-                        <div class="title-5">3281</div>
-                        <div class="title-6">3356</div>
+                </div>
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2-3.svg" />
+                        <div class="rectangle"></div>
+                        <div class="headline">Thanh toán quốc tế<br />&amp; tài trợ thương mại</div>
                     </div>
-                    <div class="frame-5">
-                        <div class="title-4">JPY</div>
-                        <div class="title-5">156.5</div>
-                        <div class="title-6">168</div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Ac leo natoque semper at ac felis interdum. Diam dictumst tempus
+                            aliquam cursus at pharetra.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2-2.svg" />
+                        <div class="rectangle"></div>
+                        <p class="headline">Thanh toán<br />&amp; Quản lý dòng tiền</p>
+                    </div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Aliquam erat ut mollis amet massa sodales. Rhoncus volutpat
+                            ultricies senectus justo curabitur at.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
                 </div>
             </div>
-            <div class="frame-2">
-                <div class="text-wrapper-3">Lãi suất</div>
-                <div class="frame-3">
-                    <div class="frame-4">
-                        <p class="p">Trần lãi suất tối đa</p>
-                        <div class="title-7">% năm</div>
+            <div class="row">
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2-1.svg" />
+                        <div class="rectangle"></div>
+                        <p class="headline">Kinh doanh ngoại tệ<br />&amp;Thị trường vốn</p>
                     </div>
-                    <div class="frame-5">
-                        <div class="title-8">Không kỳ hạn</div>
-                        <div class="title-9">0,10</div>
-                    </div>
-                    <div class="frame-6">
-                        <div class="title-4">Dưới 1 tháng</div>
-                        <div class="title-9">0,20</div>
-                    </div>
-                    <div class="frame-5">
-                        <p class="title-10">1 tháng đến dưới 2 tháng</p>
-                        <div class="title-9">3,00</div>
-                    </div>
-                    <div class="frame-6">
-                        <p class="title-10">2 tháng đến dưới 3 tháng</p>
-                        <div class="title-9">3,00</div>
-                    </div>
-                    <div class="frame-5">
-                        <p class="title-10">3 tháng đến dưới 4 tháng</p>
-                        <div class="title-9">3,00</div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Amet netus non in amet id. Eget ut duis non donec in. Molestie
+                            arcu libero tincidunt cras elementum aliquam urna nisl.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
                 </div>
-            </div>
-            <div class="frame-7">
-                <div class="text-wrapper-3">Công cụ</div>
-                <div class="frame-8">
-                    <div class="frame-9">
-                        <div class="frame-10">
-                            <img class="remix-icons-line" src="img/khdn/customer-service-2-line.svg"/>
-                            <div class="text-wrapper-4">Đăng ký tư vấn</div>
-                        </div>
-                        <img class="img-2" src="img/khdn/keyboard_arrow_right.svg"/>
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-3.svg" />
+                        <div class="rectangle"></div>
+                        <div class="headline">Tài trợ chuỗi</div>
                     </div>
-                    <div class="frame-11">
-                        <div class="frame-10">
-                            <img class="remix-icons-line" src="img/khdn/calculator-line.svg"/>
-                            <div class="text-wrapper-4">Công cụ tiện ích</div>
-                        </div>
-                        <img class="img-2" src="img/khdn/keyboard_arrow_right.svg"/>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Aliquet leo volutpat pellentesque volutpat sit. Tellus ac ut
+                            curabitur et ornare dolor lorem aliquet nec.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
-                    <div class="frame-9">
-                        <div class="frame-10">
-                            <img class="remix-icons-line" src="img/khdn/user-shared-2-line.svg"/>
-                            <div class="text-wrapper-4">Đăng ký mở thẻ</div>
-                        </div>
-                        <img class="img-2" src="img/khdn/keyboard_arrow_right.svg"/>
+                </div>
+                <div class="feature-item">
+                    <div class="frame">
+                        <img class="DV-KHDN" src="img/khdn/dv-khdn-2.svg" />
+                        <div class="rectangle"></div>
+                        <p class="headline">Bảo hiểm phi nhân thọ</p>
+                    </div>
+                    <div class="div">
+                        <p class="text-wrapper">
+                            Lorem ipsum dolor sit amet consectetur. Phasellus sem justo egestas morbi. Egestas tincidunt donec
+                            viverra facilisi leo erat senectus eget elementum.
+                        </p>
+                        <div class="button"><button class="text-wrapper-btn">Xem chi tiết</button></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+<div class="khcn">
     <footer class="footer">
         <div class="flower-color">
             <div class="overlap-group">
@@ -597,7 +622,7 @@
             </div>
         </div>
         <div class="frame-19">
-            <img class="line" src="img/line.svg"/>
+            <img class="line" src="img/Line.png"/>
             <p class="text-wrapper-14">2023 - Bản quyền thuộc về Ngân hàng TMCP Công Thương Việt Nam</p>
         </div>
     </footer>
@@ -608,6 +633,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="active.js"></script>
 <script>
     $( document ).ready(function() {
         jQuery(window).on('scroll', () => {

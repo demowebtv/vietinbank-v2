@@ -20,8 +20,9 @@
             </div>
             <div class="h-tr">
                 <div class="tm-kim">
-                    <img class="img-2" src="img/search-normal.svg"/>
-                    <div class="text-wrapper-3">Tìm kiếm</div>
+                    <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"  placeholder="Nhập từ khóa để tìm kiếm...">
+                    <a onclick="showSearchBox()" class="tm-kim search-left"><img class="img-2" src="img/search-normal.svg"/>
+                        <div class="text-wrapper-3">Tìm kiếm</div></a>
                 </div>
                 <div class="div-main-menu-social">
                     <div class="div-main-menu-social-2">
@@ -684,7 +685,7 @@
             </div>
         </div>
         <div class="frame-19">
-            <img class="line" src="img/line.svg"/>
+            <img class="line" src="img/Line.png"/>
             <p class="text-wrapper-14">2023 - Bản quyền thuộc về Ngân hàng TMCP Công Thương Việt Nam</p>
         </div>
     </footer>
@@ -695,6 +696,7 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="active.js"></script>
 <script>
     $( document ).ready(function() {
         jQuery(window).on('scroll', () => {

@@ -14,13 +14,13 @@
   background: #FFF;
 }
 .intro-page .overlap {
-  max-width: 1443px;
+  max-width: 1320px;
   width: 100%;
   margin: 0 auto;
 }
 
 .intro-page .overlap-group {display: flex;flex-direction: row;flex-wrap: wrap;max-width: 1043px;justify-content: flex-start;align-content: flex-end;}
-.top-menu{max-width: 1443px;}
+.top-menu{max-width: 1320px;}
 .intro-page .frame {
   position: absolute;
   width: 436px;
@@ -577,3 +577,19 @@
 }
 .dropdown-content img{max-height: 50px;}
 .list_me{display: flow-root;}
+
+input.search {
+  width: 260px;
+  border: 1px solid #4bb8e9;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("img/search-normal.svg") no-repeat 13px;
+  border-radius: 25px;
+  background-size: 20px;
+}
+input:focus {
+  outline: none;
+}
+.hide {
+  display: none !important;
+}
