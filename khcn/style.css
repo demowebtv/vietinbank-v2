@@ -668,20 +668,6 @@
   width: 24px;
   height: 24px;
 }
-
-.khcn .text-wrapper-2 {
-  position: relative;
-  width: fit-content;
-  font-family: var(--SVN-gilroy-14-14px-semibold-font-family);
-  font-weight: var(--SVN-gilroy-14-14px-semibold-font-weight);
-  color: #ffffff;
-  font-size: var(--SVN-gilroy-14-14px-semibold-font-size);
-  letter-spacing: var(--SVN-gilroy-14-14px-semibold-letter-spacing);
-  line-height: var(--SVN-gilroy-14-14px-semibold-line-height);
-  white-space: nowrap;
-  font-style: var(--SVN-gilroy-14-14px-semibold-font-style);
-}
-
 .khcn .frame {
   display: flex;
   width: 1366px;
