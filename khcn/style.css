@@ -684,7 +684,6 @@
 .main .text-wrapper-3 {
   position: relative;
   width: fit-content;
-  font-family: "SVN-Gilroy-Medium", Helvetica;
   font-weight: 500;
   color: #005993;
   font-size: 12px;
@@ -1076,7 +1075,6 @@
 .khcn .tr-s-ch-nh-tr-n {
   position: relative;
   width: fit-content;
-  font-family: "Inter-SemiBold", Helvetica;
   font-weight: 400;
   color: var(--neutralneutral-grey-1neutral-gray-600);
   font-size: 17px;

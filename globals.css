@@ -8,6 +8,7 @@ html,
 body {
   margin: 0px;
   overflow-x: hidden;
+  font-family: 'svn-gilroy-regular',sans-serif;
 }
 /* a blue color as a generic focus style */
 button:focus-visible {
@@ -16,18 +17,6 @@ button:focus-visible {
 }
 a {
   text-decoration: none;
-}
-
-@font-face {
-  font-family: "SVN-Gilroy-Regular";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/6448932c1e0477c237c913b3/fonts/svn-gilroy-regular.woff")
-    format("woff");
-}
-
-@font-face {
-  font-family: "SVN-Gilroy-Medium";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/6448932c1e0477c237c913b3/fonts/svn-gilroy-medium.woff")
-    format("woff");
 }
 
 @font-face {

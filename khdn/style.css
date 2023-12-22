@@ -681,7 +681,6 @@
 .main .text-wrapper-3 {
   position: relative;
   width: fit-content;
-  font-family: "SVN-Gilroy-Medium", Helvetica;
   font-weight: 500;
   color: #005993;
   font-size: 12px;
@@ -1073,7 +1072,6 @@
 .khcn .tr-s-ch-nh-tr-n {
   position: relative;
   width: fit-content;
-  font-family: "Inter-SemiBold", Helvetica;
   font-weight: 400;
   color: var(--neutralneutral-grey-1neutral-gray-600);
   font-size: 17px;
@@ -3076,7 +3074,6 @@
   position: relative;
   width: 390px;
   margin-top: -1px;
-  font-family: "Montserrat-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
   font-size: 24px;
@@ -3108,7 +3105,6 @@
   position: relative;
   width: fit-content;
   margin-top: -2.4px;
-  font-family: "Montserrat-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
   font-size: 12px;
@@ -3151,7 +3147,6 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: "Montserrat-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
   font-size: 24px;
@@ -3199,7 +3194,6 @@
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: "Montserrat-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
   font-size: 24px;
@@ -3590,7 +3584,6 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: 'svn-gilroy-semibold',sans-serif;
   font-weight: var(--paragraph-s-semi-bold-font-weight);
   color: var(--base-colorblue-ncs);
   font-size: var(--paragraph-s-semi-bold-font-size);
