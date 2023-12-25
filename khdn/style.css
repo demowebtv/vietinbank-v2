@@ -485,16 +485,11 @@
   flex-grow: 1;
 }
 
-.menu-active{
+.menu-active .link-wrapper{
   border-color: #e40013;
   border-bottom-width: 3px;
   border-bottom-style: solid;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 20px 0px;
-  position: relative;
-  flex: 0 0 auto;
 }
 .khcn .link {
   align-self: stretch;
@@ -2660,16 +2655,11 @@
   flex-grow: 1;
 }
 
-.header .menu-active {
+.header .menu-active .link-wrapper{
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-color: #e40013;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 20px 0px;
-  position: relative;
-  flex: 0 0 auto;
 }
 
 .header .link {

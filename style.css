@@ -572,8 +572,18 @@
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.dropdown:hover .dropdown-content, .dropdown:hover .sticky-dropdown-content {
   display: block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 .dropdown-content img{max-height: 50px;}
 .list_me{display: flow-root;}
