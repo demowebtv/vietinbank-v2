@@ -13,6 +13,45 @@
   margin: 0 auto;
   background: #FFF;
 }
+.head .ATM {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+}
+
+.head .ATM .location {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.head .ATM .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: var(--SVN-gilroy-12-12px-regular-font-family);
+  font-weight: var(--SVN-gilroy-12-12px-regular-font-weight);
+  color: var(--base-colorpicton-blue);
+  font-size: var(--SVN-gilroy-12-12px-regular-font-size);
+  letter-spacing: var(--SVN-gilroy-12-12px-regular-letter-spacing);
+  line-height: var(--SVN-gilroy-12-12px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--SVN-gilroy-12-12px-regular-font-style);
+}
+.head .frame-22 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.head .frame-22 .img {
+  position: relative;
+  width: 26px;
+  height: 26px;
+}
+
 .intro-page .overlap {
   max-width: 1320px;
   width: 100%;
@@ -329,7 +368,7 @@
   width: 173px;
   height: 44px;
   gap: 4px;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 23px;
   background-color: var(--base-colormain-crimson);
   border-radius: 4px;
   display: flex;
@@ -503,6 +542,11 @@
   border-radius: 32px/31.3px;
 }
 
+.intro-page .chat:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
+}
+
 .intro-page .bi-messenger {
   position: absolute;
   width: 37px;
@@ -517,6 +561,20 @@
   height: 62.59px;
   background-color: var(--base-colormain-pale-cyan);
   border-radius: 32px/31.3px;
+}
+
+.intro-page .t-vn:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    20% { transform: translate(-5px, 0) rotate(-5deg); }
+    40% { transform: translate(5px, 0) rotate(5deg); }
+    60% { transform: translate(-5px, 0) rotate(-5deg); }
+    80% { transform: translate(5px, 0) rotate(5deg); }
+    100% { transform: translate(0, 0) rotate(0); }
 }
 
 .intro-page .remix-icons-line {

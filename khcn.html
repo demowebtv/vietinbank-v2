@@ -12,7 +12,7 @@
     <div class="head">
         <div class="top-menu">
             <div class="navbar">
-                <img class="logo-vietin-bank" src="img/logo-vietin-bank.svg"/>
+                <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.svg"/></a>
                 <div class="text-wrapper-2">NHÀ ĐẦU TƯ</div>
                 <div class="text-wrapper-2">TUYỂN DỤNG</div>
                 <div class="text-wrapper-2">TIN TỨC</div>
@@ -22,42 +22,21 @@
             <div class="h-tr">
                 <div class="tm-kim">
                     <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"  placeholder="Nhập từ khóa để tìm kiếm...">
-                    <a onclick="showSearchBox()" class="tm-kim search-left"><img class="img-2" src="img/search-normal.svg"/>
-                        <div class="text-wrapper-3">Tìm kiếm</div></a>
+                    <a onclick="showSearchBox()" class="tm-kim search-left">
+                    <img class="img-2" src="img/search-normal.svg"/>
+                    </a>
                 </div>
-                <div class="div-main-menu-social">
-                    <div class="div-main-menu-social-2">
-                        <div class="link">
-                            <div class="i-fab">
-                                <div class="symbol"></div>
-                            </div>
-                        </div>
-                        <div class="link-margin">
-                            <div class="i-fab-wrapper">
-                                <div class="i-fab">
-                                    <div class="symbol"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="link-margin">
-                            <div class="div-wrapper">
-                                <div class="i-fab">
-                                    <div class="symbol"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="link-margin">
-                            <div class="link-2">
-                                <div class="i-fab">
-                                    <div class="symbol"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="ATM">
+                    <img class="location" src="img/location.svg"/>
+                </div>
+                <div class="frame-22">
+                    <img class="img" src="img/khcn/facebook.png" />
+                    <img class="img" src="img/khcn/youtube.png" />
+                    <img class="img" src="img/khcn/linkedin.png" />
                 </div>
                 <div class="contact-center">
                     <img class="img-2" src="img/call.svg"/>
-                    <div class="text-wrapper-4">1900 558868</div>
+                    <div class="text-wrapper-4">1900 558 868</div>
                 </div>
                 <div class="text-wrapper-5">VI</div>
             </div>
@@ -71,7 +50,7 @@
                 <div class="div">
                     <div class="item">
                         <div class="div">
-                            <div class="text-wrapper">Cá nhân</div>
+                            <div class="text-wrapper"><a style="color: var(--base-colorwhite);" href="khcn.html">Cá nhân</a></div>
                             <div class="pseudo-margin">
                                 <div class="pseudo">
                                     <div class="symbol"></div>
@@ -82,7 +61,7 @@
                     <div class="item-margin">
                         <div class="link-wrapper">
                             <div class="div">
-                                <div class="text-wrapper-2">Doanh nghiệp</div>
+                                <div class="text-wrapper-2"><a style="color: var(--base-colorwhite);" href="khdn.html">Doanh nghiệp</a></div>
                                 <div class="pseudo-wrapper">
                                     <div class="pseudo">
                                         <div class="symbol-2"></div>
@@ -149,11 +128,11 @@
     <div class="header-inner">
         <div class="container flex">
         <div class="header-main">
-            <img class="logo-vietin-bank" src="img/logo-vietin-bank.svg" />
+            <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.svg" /></a>
             <div class="list">
                 <div class="item">
                     <div class="link">
-                        <div class="text-wrapper">Cá nhân</div>
+                        <div class="text-wrapper"><a style="color: var(--base-colorblack);" href="khcn.html">Cá nhân</a></div>
                         <div class="pseudo-margin">
                             <div class="pseudo"><div class="symbol"></div></div>
                         </div>
@@ -162,7 +141,7 @@
                 <div class="item-margin">
                     <div class="link-wrapper">
                         <div class="link">
-                            <div class="div">Doanh nghiệp</div>
+                            <div class="div"><a style="color: var(--base-colorblack);" href="khdn.html">Doanh nghiệp</a></div>
                             <div class="pseudo-wrapper">
                                 <div class="pseudo"><div class="symbol-2"></div></div>
                             </div>
@@ -217,8 +196,12 @@
         </div>
     </div>
     </div>
-
-    <div class="image" style="margin-top: -25px;"><img class="BG-img" src="img/khcn/main_bg.jpeg"/></div>
+    <div class="image">
+        <img class="BG-img" src="img/khcn/main_bg.jpeg"/>
+        <div class="text-container">
+            Tích lũy an toàn<br/>Chi tiêu hiệu quả
+        </div>
+    </div>
     <div class="content">
         <div class="dch-v">
             <div class="div-mkd-interactive">
@@ -234,7 +217,6 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Tiền gửi</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive-2">
                 <div class="group">
@@ -249,11 +231,10 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Ngân hàng số</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive">
-                <div class="group-wrapper">
-                    <div class="overlap-group-wrapper">
+                <div class="group">
+                    <div class="overlap-group">
                         <div class="overlap-group">
                             <img class="banking-2" src="img/khcn/banking-4.svg">
                             <div class="group-3">
@@ -266,11 +247,10 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Thẻ</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive-2">
-                <div class="group-wrapper">
-                    <div class="overlap-group-wrapper">
+                <div class="group">
+                    <div class="overlap-group">
                         <div class="overlap-group">
                             <img class="banking-2" src="img/khcn/banking-3.svg">
                             <div class="group-4">
@@ -283,11 +263,10 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Cho vay</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive">
-                <div class="group-wrapper">
-                    <div class="overlap-group-wrapper">
+                <div class="group">
+                    <div class="overlap-group">
                         <div class="overlap-group">
                             <img class="banking-2" src="img/khcn/banking-2.svg">
                             <div class="div">
@@ -300,11 +279,10 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Bảo hiểm</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive-2">
-                <div class="group-wrapper">
-                    <div class="overlap-group-wrapper">
+                <div class="group">
+                    <div class="overlap-group">
                         <div class="overlap-group">
                             <img class="banking-2" src="img/khcn/banking-1.svg">
                             <div class="group-2">
@@ -317,11 +295,10 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Chuyển tiền kiều hối</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
             </div>
             <div class="div-mkd-interactive">
-                <div class="group-wrapper">
-                    <div class="overlap-group-wrapper">
+                <div class="group">
+                    <div class="overlap-group">
                         <div class="overlap-group">
                             <img class="banking-2" src="img/khcn/banking.svg">
                             <div class="group-3">
@@ -334,7 +311,6 @@
                     </div>
                 </div>
                 <div class="text-wrapper">Dịch vụ khác</div>
-                <p class="morbi-accumsan-ipsum">Morbi accumsan ipsum velit. Nam nec<br>tellus a odio.</p>
 
             </div>
         </div>
@@ -431,6 +407,16 @@
         </div>
     </div>
     <div class="container">
+        <div class="div-wrapper-container">
+            <div class="text-wrapper-container">Giải thưởng</div>
+            <p class="text-wrapper-container-1">
+                VietinBank đã ghi danh tên mình trên bản đồ uy tín với nhiều giải thưởng quốc tế và trong nước, là
+                minh
+                chứng cho sự xuất sắc và cam kết vững chắc trong việc cung cấp các dịch vụ ngân hàng và tài chính
+                hàng
+                đầu
+            </p>
+        </div>
         <div class="gii-thng">
             <div class="frame">
                 <div class="div">
@@ -628,7 +614,7 @@
                     <span class="span">Trụ sở chính:</span>
                     <span class="text-wrapper-6"> 108 Trần Hưng Đạo, Hà Nội<br/></span>
                     <span class="span">Điện thoại:</span>
-                    <span class="text-wrapper-6"> 1800 558 866 / (84) 24 3941 8868<br/></span>
+                    <span class="text-wrapper-6"> 1900 558 868<br/></span>
                     <span class="span">Fax:</span>
                     <span class="text-wrapper-6"> (84) 24 3942 1032<br/></span>
                     <span class="span">Email:</span>
@@ -648,40 +634,15 @@
                     <div class="newsletter">
                         <div class="overlap-group-wrapper">
                             <div class="overlap-group-2">
-                                <p class="text-wrapper-7">Liên hệ với chúng tôi</p>
-                                <p class="text-wrapper-8">Viết thư, gọi điện hoặc gửi tin nhắn cho chúng tôi</p>
+                                <p class="text-wrapper-7">Kết nối với VietinBank nhiều hơn tại</p>
                             </div>
                         </div>
                     </div>
-                    <div class="frame-18">
-                        <div class="text-wrapper-9">Nội dung liên hệ</div>
-                        <button class="CTA">
-                            <div class="text-wrapper-10">Liên hệ</div>
-                            <img class="vuesax-linear-arrow" src="img/khcn/arrow-down.svg"/>
-                        </button>
-                    </div>
                 </div>
-                <div class="some">
-                    <div class="facebook">
-                        <div class="overlap-group-3">
-                            <div class="text-wrapper-11"></div>
-                        </div>
-                    </div>
-                    <div class="twiiter">
-                        <div class="overlap">
-                            <div class="text-wrapper-12"></div>
-                        </div>
-                    </div>
-                    <div class="pin">
-                        <div class="overlap-2">
-                            <div class="text-wrapper-13"></div>
-                        </div>
-                    </div>
-                    <div class="linkedin-in">
-                        <div class="overlap-3">
-                            <div class="text-wrapper-13"></div>
-                        </div>
-                    </div>
+                <div class="frame-21">
+                    <img class="img" src="img/khcn/facebook.png" />
+                    <img class="img" src="img/khcn/youtube.png" />
+                    <img class="img" src="img/khcn/linkedin.png" />
                 </div>
             </div>
         </div>
