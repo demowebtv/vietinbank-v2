@@ -558,4 +558,8 @@
   --background-blur-background-blur-s-5: ;
   --background-blur-background-blur-m-15: ;
   --background-blur-background-blur-l-25: ;
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --neutral-100: rgba(255, 255, 255, 1);
+  --neutraltransparent: rgba(0, 0, 0, 0);
+  --neutral-200: rgba(247, 247, 251, 1);
 }

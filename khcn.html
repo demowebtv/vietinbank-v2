@@ -21,18 +21,19 @@
             </div>
             <div class="h-tr">
                 <div class="tm-kim">
-                    <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"  placeholder="Nhập từ khóa để tìm kiếm...">
+                    <input class="search search-full hide" type="search" onblur="showSearchOnLeave()"
+                           placeholder="Nhập từ khóa để tìm kiếm...">
                     <a onclick="showSearchBox()" class="tm-kim search-left">
-                    <img class="img-2" src="img/search-normal.svg"/>
+                        <img class="img-2" src="img/search-normal.svg"/>
                     </a>
                 </div>
                 <div class="ATM">
                     <img class="location" src="img/location.svg"/>
                 </div>
                 <div class="frame-22">
-                    <img class="img" src="img/khcn/facebook.png" />
-                    <img class="img" src="img/khcn/youtube.png" />
-                    <img class="img" src="img/khcn/linkedin.png" />
+                    <img class="img" src="img/khcn/facebook.png"/>
+                    <img class="img" src="img/khcn/youtube.png"/>
+                    <img class="img" src="img/khcn/linkedin.png"/>
                 </div>
                 <div class="contact-center">
                     <img class="img-2" src="img/call.svg"/>
@@ -48,12 +49,208 @@
         <div class="container div_hed">
             <div class="div-main-menu-main">
                 <div class="div">
-                    <div class="item">
-                        <div class="div">
-                            <div class="text-wrapper"><a style="color: var(--base-colorwhite);" href="khcn.html">Cá nhân</a></div>
+                    <div class="item dropdown">
+                        <div class="div dropbtn">
+                            <div class="text-wrapper"><a style="color: var(--base-colorwhite);" href="khcn.html">Cá
+                                nhân</a></div>
                             <div class="pseudo-margin">
                                 <div class="pseudo">
                                     <div class="symbol"></div>
+                                </div>
+                            </div>
+                            <div class="sticky-dropdown-content">
+                                <div class="mega">
+                                    <div class="meagF">
+                                        <div class="megadiv tab tab-active tablinks" onclick="openTab(event, 'tab1')">
+                                            <div class="mega-group"><img class="img" src="img/megamenu/group-39199.png" /></div>
+                                            <div class="meagF-2">
+                                                <div class="meagF-wrapper">
+                                                    <div class="meagF-3">
+                                                        <div class="meagF-text-wrapper">Sản phẩm dịch vụ</div>
+                                                        <div class="overlap-mega-group-wrapper">
+                                                            <div class="overlap-mega-group">
+                                                                <img class="vector" src="img/megamenu/arow_down.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megadiv tab tablinks" onclick="openTab(event, 'tab2')">
+                                            <div class="mega-group"><img class="img" src="img/megamenu/group-spdv.png" /></div>
+                                            <div class="meagF-2">
+                                                <div class="meagF-wrapper">
+                                                    <div class="meagF-3">
+                                                        <div class="meagF-text-wrapper">Công cụ và tiện ích</div>
+                                                        <div class="overlap-mega-group-wrapper">
+                                                            <div class="overlap-mega-group">
+                                                                <img class="vector" src="img/megamenu/arow_down.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="megadiv tab tablinks" onclick="openTab(event, 'tab3')">
+                                            <div class="mega-group"><img class="img" src="img/megamenu/group-lhdh.svg" /></div>
+                                            <div class="meagF-2">
+                                                <div class="meagF-wrapper">
+                                                    <div class="meagF-3">
+                                                        <div class="meagF-text-wrapper">Liên hệ và hỗ trợ</div>
+                                                        <div class="overlap-mega-group-wrapper">
+                                                            <div class="overlap-mega-group">
+                                                                <img class="vector" src="img/megamenu/arow_down.svg" />
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabcontent flex meagF-7 " id="tab1">
+                                        <div class="products-left">
+                                            <div class="interactive-reports">
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                    <div class="meagF-text-wrapper-2">Tiền gửi</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Thẻ</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Ngân hàng số</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                    <div class="meagF-text-wrapper-2">Bảo hiểm</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/hand-coin.svg" />
+                                                    <div class="meagF-text-wrapper-2">Cho vay</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                    <div class="meagF-text-wrapper-2">Chuyển tiền kiều hối</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/bill.svg" />
+                                                    <div class="meagF-text-wrapper-2">Dịch vụ khác</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="project-card-wrapper">
+                                            <div class="project-card">
+                                                <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                                <div class="info"><p class="meagF-text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="products-left-2">
+                                            <div class="project-card-2">
+                                                <img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" />
+                                                <div class="info-2"><p class="meagF-text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabcontent meagF-7 " id="tab2" style="display: none;">
+                                        <div class="products-left-2">
+                                            <div class="project-card-2">
+                                                <img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" />
+                                                <div class="info-2"><p class="meagF-text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="project-card-wrapper">
+                                            <div class="project-card">
+                                                <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                                <div class="info"><p class="meagF-text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="products-left">
+                                            <div class="interactive-reports">
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                    <div class="meagF-text-wrapper-2">Tiền gửi</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Thẻ</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Ngân hàng số</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                    <div class="meagF-text-wrapper-2">Bảo hiểm</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/hand-coin.svg" />
+                                                    <div class="meagF-text-wrapper-2">Cho vay</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                    <div class="meagF-text-wrapper-2">Chuyển tiền kiều hối</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/bill.svg" />
+                                                    <div class="meagF-text-wrapper-2">Dịch vụ khác</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabcontent meagF-7 " id="tab3" style="display: none;">
+                                        <div class="project-card-wrapper">
+                                            <div class="project-card">
+                                                <div class="element-wrapper"><img class="element" src="img/megamenu/80-1.png" /></div>
+                                                <div class="info"><p class="meagF-text-wrapper-3">Thẻ VIP trên tay - Rinh ngay lượt golf</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="products-left">
+                                            <div class="interactive-reports">
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/money-bundle.svg" />
+                                                    <div class="meagF-text-wrapper-2">Tiền gửi</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/double-credit-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Thẻ</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/laptop-card.svg" />
+                                                    <div class="meagF-text-wrapper-2">Ngân hàng số</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/cards-case.svg" />
+                                                    <div class="meagF-text-wrapper-2">Bảo hiểm</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/hand-coin.svg" />
+                                                    <div class="meagF-text-wrapper-2">Cho vay</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/transfer-cards.svg" />
+                                                    <div class="meagF-text-wrapper-2">Chuyển tiền kiều hối</div>
+                                                </div>
+                                                <div class="title">
+                                                    <img class="img-2" src="img/megamenu/bill.svg" />
+                                                    <div class="meagF-text-wrapper-2">Dịch vụ khác</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rectangle"></div>
+                                        <div class="products-left-2">
+                                            <div class="project-card-2">
+                                                <img class="unsplash" src="img/megamenu/unsplash-gmes5dnykus.png" />
+                                                <div class="info-2"><p class="meagF-text-wrapper-3">Gửi tiền và mua bán ngoại tệ đón lộc đầu năm</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +258,8 @@
                     <div class="item-margin">
                         <div class="link-wrapper">
                             <div class="div">
-                                <div class="text-wrapper-2"><a style="color: var(--base-colorwhite);" href="khdn.html">Doanh nghiệp</a></div>
+                                <div class="text-wrapper-2"><a style="color: var(--base-colorwhite);" href="khdn.html">Doanh
+                                    nghiệp</a></div>
                                 <div class="pseudo-wrapper">
                                     <div class="pseudo">
                                         <div class="symbol-2"></div>
@@ -125,76 +323,88 @@
     </div>
 
     <div class="header">
-    <div class="header-inner">
-        <div class="container flex">
-        <div class="header-main">
-            <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.svg" /></a>
-            <div class="list">
-                <div class="item">
-                    <div class="link">
-                        <div class="text-wrapper"><a style="color: var(--base-colorblack);" href="khcn.html">Cá nhân</a></div>
-                        <div class="pseudo-margin">
-                            <div class="pseudo"><div class="symbol"></div></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="link-wrapper">
-                        <div class="link">
-                            <div class="div"><a style="color: var(--base-colorblack);" href="khdn.html">Doanh nghiệp</a></div>
-                            <div class="pseudo-wrapper">
-                                <div class="pseudo"><div class="symbol-2"></div></div>
+        <div class="header-inner">
+            <div class="container flex">
+                <div class="header-main">
+                    <a href="index.html"><img class="logo-vietin-bank" src="img/logo-vietin-bank.svg"/></a>
+                    <div class="list">
+                        <div class="item">
+                            <div class="link">
+                                <div class="text-wrapper"><a style="color: var(--base-colorblack);" href="khcn.html">Cá
+                                    nhân</a></div>
+                                <div class="pseudo-margin">
+                                    <div class="pseudo">
+                                        <div class="symbol"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="link-wrapper">
-                        <div class="link">
-                            <div class="div">Khách hàng Ưu tiên</div>
-                            <div class="pseudo-wrapper">
-                                <div class="pseudo"><div class="symbol-2"></div></div>
+                        <div class="item-margin">
+                            <div class="link-wrapper">
+                                <div class="link">
+                                    <div class="div"><a style="color: var(--base-colorblack);" href="khdn.html">Doanh
+                                        nghiệp</a></div>
+                                    <div class="pseudo-wrapper">
+                                        <div class="pseudo">
+                                            <div class="symbol-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="link-wrapper">
-                        <div class="link">
-                            <div class="div">Định chế tài chính</div>
-                            <div class="pseudo-margin">
-                                <div class="pseudo"><div class="symbol-2"></div></div>
+                        <div class="item-margin">
+                            <div class="link-wrapper">
+                                <div class="link">
+                                    <div class="div">Khách hàng Ưu tiên</div>
+                                    <div class="pseudo-wrapper">
+                                        <div class="pseudo">
+                                            <div class="symbol-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item-margin">
-                    <div class="link-wrapper">
-                        <div class="link">
-                            <div class="div">Phát triển bền vững</div>
-                            <div class="div-wrapper">
-                                <div class="pseudo"><div class="symbol-2"></div></div>
+                        <div class="item-margin">
+                            <div class="link-wrapper">
+                                <div class="link">
+                                    <div class="div">Định chế tài chính</div>
+                                    <div class="pseudo-margin">
+                                        <div class="pseudo">
+                                            <div class="symbol-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div class="item-margin">
+                            <div class="link-wrapper">
+                                <div class="link">
+                                    <div class="div">Phát triển bền vững</div>
+                                    <div class="div-wrapper">
+                                        <div class="pseudo">
+                                            <div class="symbol-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-margin-2"></div>
                     </div>
                 </div>
-                <div class="item-margin-2"></div>
+                <div class="div-main-menu-right dropdown">
+                    <img class="img" src="img/khcn/pseudo.svg"/>
+                    <div class="link-2 dropbtn">
+                        <img class="login" src="img/khcn/login_stick.svg"/>
+                        <div class="text-wrapper-2">Ngân hàng số</div>
+                    </div>
+                    <div class="sticky-dropdown-content">
+                        <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
+                        <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
+                        <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="div-main-menu-right dropdown">
-            <img class="img" src="img/khcn/pseudo.svg" />
-            <div class="link-2 dropbtn">
-                <img class="login" src="img/khcn/login_stick.svg" />
-                <div class="text-wrapper-2">Ngân hàng số</div>
-            </div>
-            <div class="sticky-dropdown-content">
-                <div class="list_me"><a href="#"><img src="img/iPay90x22_vi.png"/></a></div>
-                <div class="list_me"><a href="#"><img src="img/eFAST_90x22_vi.png"/></a></div>
-                <div class="list_me"><a href="#"><img src="img/Trade-portal-logo.png"/></a></div>
-            </div>
-        </div>
-        </div>
-    </div>
     </div>
     <div class="image">
         <img class="BG-img" src="img/khcn/main_bg.jpeg"/>
@@ -640,9 +850,9 @@
                     </div>
                 </div>
                 <div class="frame-21">
-                    <img class="img" src="img/khcn/facebook.png" />
-                    <img class="img" src="img/khcn/youtube.png" />
-                    <img class="img" src="img/khcn/linkedin.png" />
+                    <img class="img" src="img/khcn/facebook.png"/>
+                    <img class="img" src="img/khcn/youtube.png"/>
+                    <img class="img" src="img/khcn/linkedin.png"/>
                 </div>
             </div>
         </div>
@@ -660,12 +870,11 @@
 <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="active.js"></script>
 <script>
-    $( document ).ready(function() {
+    $(document).ready(function () {
         jQuery(window).on('scroll', () => {
             if ($(this).scrollTop() > 100) {
                 $('.header').addClass("sticky");
-            }
-            else {
+            } else {
                 $('.header').removeClass("sticky");
             }
         });
