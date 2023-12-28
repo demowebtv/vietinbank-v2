@@ -2728,7 +2728,12 @@
   position: relative;
   display: inline-block;
 }
-
+.submenu_2{ display: none; }
+.title:hover>.submenu_2{
+  display: block;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 1s;
+}
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -2749,7 +2754,6 @@
   border-radius: 5px;
   height: 70px;
   vertical-align: middle;
-  /* display: inherit; */
 }
 
 /* Change color of dropdown links on hover */
@@ -3306,6 +3310,7 @@ input:focus {
   position: relative;
   align-self: stretch;
   width: 100%;
+  display: -webkit-box;
 }
 
 .mega .img-2 {
@@ -3390,6 +3395,7 @@ input:focus {
 }
 
 .mega .rectangle {
+  z-index: 9999;
   position: relative;
   width: 2px;
   height: 300px;
@@ -3401,7 +3407,7 @@ input:focus {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 32px;
+  padding: 33px;
   position: relative;
   flex: 1;
   align-self: stretch;
@@ -3520,4 +3526,82 @@ input:focus {
   flex: 0 0 auto;
   background-color: var(--base-colormain-sea-blue);
   border-radius: 0px 0px 8px 8px;
+}
+
+/*submenu mega*/
+
+.products-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 32px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.products-left .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.products-left .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.products-left .th-t-n-d-ng-th-ghi-n {
+  position: relative;
+  width: 243.55px;
+  height: 294px;
+  font-weight: 500;
+  color: var(--neutralneutral-grey-1neutral-gray-500);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+.submenu_2{
+  margin-left: 300px;
+  position: absolute;
+  z-index: 999;
+  top: -80px;
+  left: 0;
+  width: 526px;
+  background: #FFF;
+  height: 359px;
+  padding-left: 161px;
+}
+.description-wrapper .description .text-wrapper-2{
+  font-weight: 400;
+  color: #97a3b7;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+}
+.submenu_2{
+  color: #97a3b7;
+}
+.submenu_2 li a{
+  color: #97a3b7;
+  margin: 0;
+  height: auto;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+}
+.submenu_2 li:hover a{
+  background: none;color: var(--base-colormain-sea-blue);
 }
