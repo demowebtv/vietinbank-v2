@@ -2732,7 +2732,7 @@
 .title:hover>.submenu_2{
   display: block;
   -webkit-animation: fadeIn 0.5s;
-  animation: fadeIn 1s;
+  animation: fadeIn 0.5s;
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
