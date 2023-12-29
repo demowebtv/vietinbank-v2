@@ -23,6 +23,19 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "flex";
     evt.currentTarget.className += " tab-active";
 }
+function openTab1(evt, tabName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent-1");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks-1");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" tab-active", "");
+    }
+    document.getElementById(tabName).style.display = "flex";
+    evt.currentTarget.className += " tab-active";
+}
 function openStab(evt, tabName) {
     var i, stabcontent, stablinks;
     stabcontent = document.getElementsByClassName("stabcontent");
