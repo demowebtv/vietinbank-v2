@@ -1080,6 +1080,7 @@
   display: inline-flex;
   flex-direction: column;
   height: 129px;
+  width: 458px;
   align-items: flex-start;
   justify-content: center;
   gap: 16px;
@@ -1131,9 +1132,10 @@
 .khcn .frame-14 {
   display: inline-flex;
   flex-direction: column;
-  height: 109px;
+  height: 129px;
+  width: 304px;
   align-items: flex-start;
-  gap: 16px;
+  gap: 34px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1141,7 +1143,7 @@
 .khcn .frame-15 {
   display: inline-flex;
   align-items: flex-start;
-  gap: 32px;
+  gap: 16px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1156,11 +1158,12 @@
 .khcn .frame-16 {
   display: inline-flex;
   flex-direction: column;
-  height: 117px;
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
   flex: 0 0 auto;
+  width: 261.26px;
+  height: 129px;
 }
 
 .khcn .frame-17 {
@@ -1198,7 +1201,7 @@
 
 .khcn .text-wrapper-7 {
   position: absolute;
-  width: 446px;
+  width: 261.25px;
   height: 29px;
   top: 0;
   left: 0;
@@ -1736,7 +1739,7 @@
   width: 173px;
   height: 60px;
   gap: 4px;
-  padding: 8px 16px;
+  padding: 8px 23px;
   background-color: var(--base-colorwhite);
   border-radius: 4px;
   overflow: hidden;
@@ -2955,7 +2958,7 @@
   width: 173px;
   height: 60px;
   gap: 4px;
-  padding: 8px 16px;
+  padding: 8px 23px;
   background-color: var(--base-colormain-sea-blue);
   border-radius: 4px;
   overflow: hidden;
@@ -3949,7 +3952,7 @@ input:focus {
   position: absolute;
   width: 17px;
   height: auto;
-  op: -1px;
+  top: -1px;
   left: -1px;
   transform: rotate(-90deg);
 }

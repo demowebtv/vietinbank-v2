@@ -1141,6 +1141,7 @@
   display: inline-flex;
   flex-direction: column;
   height: 129px;
+  width: 458px;
   align-items: flex-start;
   justify-content: center;
   gap: 16px;
@@ -1192,9 +1193,10 @@
 .khcn .frame-14 {
   display: inline-flex;
   flex-direction: column;
-  height: 109px;
+  height: 129px;
+  width: 304px;
   align-items: flex-start;
-  gap: 16px;
+  gap: 34px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1217,7 +1219,8 @@
 .khcn .frame-16 {
   display: inline-flex;
   flex-direction: column;
-  height: 117px;
+  width: 261.26px;
+  height: 129px;
   align-items: flex-start;
   justify-content: space-between;
   position: relative;
@@ -1259,7 +1262,7 @@
 
 .khcn .text-wrapper-7 {
   position: absolute;
-  width: 446px;
+  width: 261.25px;
   height: 29px;
   top: 0;
   left: 0;

@@ -405,7 +405,7 @@
   gap: 8px;
   position: absolute;
   top: 65px;
-  left: 158px;
+  left: -50px;
 }
 
 .intro-page .element-partly-cloudy {
@@ -424,7 +424,7 @@
 
 .intro-page .group {
   position: relative;
-  width: 272px;
+  width: 485px;
   height: 70px;
 }
 
@@ -461,6 +461,7 @@
   line-height: var(--SVN-gilroy-24-24px-regular-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-24-24px-regular-font-style);
+  left: 187px;
 }
 
 .intro-page .form {
