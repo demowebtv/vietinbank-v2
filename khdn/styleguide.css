@@ -582,4 +582,8 @@
   --paragraph-s-medium-letter-spacing: 0px;
   --paragraph-s-medium-line-height: 20px;
   --paragraph-s-medium-font-style: normal;
+  --neutralwhite: rgba(255, 255, 255, 1);
+  --neutral-100: rgba(255, 255, 255, 1);
+  --neutraltransparent: rgba(0, 0, 0, 0);
+  --neutral-200: rgba(247, 247, 251, 1);
 }

@@ -4393,7 +4393,8 @@ input:focus {
   width: 526px;
   background: #FFF;
   height: 359px;
-  padding-left: 161px;
+  padding-left: 135px;
+  padding-top: 45px;
 }
 .description-wrapper .description .text-wrapper-2{
   font-weight: 400;
